@@ -1,0 +1,258 @@
+{
+  "id": "ecb1bdcf-0926-46d7-8939-1c9b032fe20f",
+  "version": "2.0",
+  "name": "kpk-sppt-ml-51",
+  "url": "https://sppt.cloud.javan.co.id",
+  "tests": [{
+    "id": "0963c223-108b-4a0f-8523-ed89e1376b80",
+    "name": "kpk-sppt-ml-51",
+    "commands": [{
+      "id": "6fbf99cc-f09e-4381-a5d2-3afc7d989650",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c282d76e-9291-4590-a718-208fe50a179a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "558x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7487cf23-5abe-43e1-a901-a2ccfdfb8a77",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > .input-icon:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77c521cf-f808-4699-9e6b-7064b9f5d919",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > .input-icon:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aidil.ikbar"
+    }, {
+      "id": "1f2662d3-76d7-422a-8a00-3581e7c8ffed",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "asdf1234"
+    }, {
+      "id": "e53f658c-3cec-490b-9ded-0734d389bc42",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "07b042ce-7a0a-4751-a312-2d2eb8613074",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Top Satgas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0a356f-308e-4772-90d4-1129bc1edd8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a57ffd8-ec9c-4773-9ae0-c96819e7162b",
+      "comment": "",
+      "command": "type",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kpr821"
+    }, {
+      "id": "a5373e93-abfc-4feb-8a3e-d856b1920668",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e5236b9e-1a7e-412d-bfbb-8f58647726c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-indicator",
+      "targets": [
+        ["css=.open-indicator", "css:finder"],
+        ["xpath=//div[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65616f29-1ec0-4f02-96f8-b5b93a524027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.highlight > a",
+      "targets": [
+        ["css=.highlight > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Penuntutan')]", "xpath:link"],
+        ["xpath=//div/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a11703b-9e8c-4baa-8a94-61fd0111a924",
+      "comment": "",
+      "command": "click",
+      "target": "css=.datepicker-years",
+      "targets": [
+        ["css=.datepicker-years", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "511959fb-7811-476d-a4e8-c8f28285fdd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prev",
+      "targets": [
+        ["css=.prev", "css:finder"],
+        ["xpath=//header/span", "xpath:position"],
+        ["xpath=//span[contains(.,'<')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "add141af-0daf-4a77-976a-6943620ea3c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell:nth-child(9)",
+      "targets": [
+        ["css=.cell:nth-child(9)", "css:finder"],
+        ["xpath=//span[8]", "xpath:position"],
+        ["xpath=//span[contains(.,'2017')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13eb4171-de58-4793-867f-53f3ff93c50e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-7",
+      "targets": [
+        ["css=.col-md-7", "css:finder"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68b16685-34e3-4545-a73c-3f15161405a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'CARI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc4a3c0-f45a-44d1-aed7-55a0f56eb712",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-sm:nth-child(1)",
+      "targets": [
+        ["css=.btn-sm:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'RESET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa0177b-ebf0-41ab-95dc-dd9fd63c98b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portlet-body",
+      "targets": [
+        ["css=.portlet-body", "css:finder"],
+        ["xpath=//form/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cf383fc-e8c4-4b0d-832b-15db71fa368e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-angle-down",
+      "targets": [
+        ["css=.fa-angle-down", "css:finder"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c3880b-14dc-47c8-b139-78b841f82c95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be63f8bd-a362-42a3-917c-f266bfc35dca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "344b1886-2451-4d7b-ad49-0b3c24c8144f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0963c223-108b-4a0f-8523-ed89e1376b80"]
+  }],
+  "urls": ["https://sppt.cloud.javan.co.id/"],
+  "plugins": []
+}

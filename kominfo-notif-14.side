@@ -1,0 +1,215 @@
+{
+  "id": "d1e208eb-4568-4f3d-babc-959128dcf41e",
+  "version": "2.0",
+  "name": "kominfo-notif-14",
+  "url": "https://sdm-kominfo.cloud.javan.co.id",
+  "tests": [{
+    "id": "9581f0a5-c934-4316-9dce-7f17e55d8294",
+    "name": "kominfo-notif-14",
+    "commands": [{
+      "id": "4272956e-a7c7-4ed0-bcc0-2e1699593b34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf2c9df7-b266-4c08-a415-04db6d58ad39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "523x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8469d6dd-3973-4912-a28d-23d433fb6640",
+      "comment": "",
+      "command": "click",
+      "target": "css=.large",
+      "targets": [
+        ["css=.large", "css:finder"],
+        ["xpath=//a[@id='mobile_item']/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ebba9f-a07f-4c39-afee-bc4a59b1aae5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui:nth-child(5) > .ui",
+      "targets": [
+        ["css=.ui:nth-child(5) > .ui", "css:finder"],
+        ["xpath=//body[@id='body']/div/a[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1cd5e0-fb3a-4faa-aea0-63d4400463d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c59098-235e-4136-a658-460dc15d78ce",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin@laravolt.dev"
+    }, {
+      "id": "40b77868-99ee-4eb0-a0c6-04f6de200508",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.field:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99fd64a0-dc24-4c5e-b06a-e25be33b39ca",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.field:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "secret"
+    }, {
+      "id": "9f6e69dd-832e-4a1d-9998-5bae649ba2b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1080c02c-bbda-4206-8520-2f4568f37dd7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51da31b4-b5f7-4280-a014-fd131bf4cb8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar:nth-child(1)",
+      "targets": [
+        ["css=.sidebar:nth-child(1)", "css:finder"],
+        ["xpath=//body[@id='body']/div/header/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79c4dd2f-a532-4aa9-af8a-9302129f90bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title:nth-child(7) > span",
+      "targets": [
+        ["css=.title:nth-child(7) > span", "css:finder"],
+        ["xpath=//nav[@id='sidebar']/div[3]/div/div/div[3]/div/div/div[2]/div[2]/a[4]/span", "xpath:idRelative"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Email Blasting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4216ea1d-1430-4f78-a25a-0bf8d7d13ba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui > .field .default",
+      "targets": [
+        ["css=.ui > .field .default", "css:finder"],
+        ["xpath=//body[@id='body']/div/main/div/div/div[2]/form/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c7dacde-ca4d-46e9-853d-010ad24dcd82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > .item:nth-child(11)",
+      "targets": [
+        ["css=.menu > .item:nth-child(11)", "css:finder"],
+        ["xpath=//body[@id='body']/div/main/div/div/div[2]/form/div/div/div[2]/div[11]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[11]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec7055cf-b28e-4ce1-8f24-b6fc207a435a",
+      "comment": "",
+      "command": "select",
+      "target": "name=seleksi",
+      "targets": [],
+      "value": "label=Seleksi Kepala Dinas"
+    }, {
+      "id": "7e61126b-1585-482c-b4bd-9bca39c17302",
+      "comment": "",
+      "command": "click",
+      "target": "css=.avatar",
+      "targets": [
+        ["css=.avatar", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/png;base64,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')]", "xpath:img"],
+        ["xpath=//div[@id='userbar']/div[3]/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f543d219-984e-4afc-ab49-307857602058",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.visible > .item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='userbar']/div[3]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sdm-kominfo.cloud.javan.co.id/auth/logout')]", "xpath:href"],
+        ["xpath=//div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6656452-87bd-44bc-95b5-fa21f5e8d1fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a68686d0-5e04-4644-94b6-2efe67672393",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9581f0a5-c934-4316-9dce-7f17e55d8294"]
+  }],
+  "urls": ["https://sdm-kominfo.cloud.javan.co.id/"],
+  "plugins": []
+}

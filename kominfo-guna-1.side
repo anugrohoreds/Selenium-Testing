@@ -1,0 +1,172 @@
+{
+  "id": "730ca23b-2275-4ccf-9cb5-adc92b814a18",
+  "version": "2.0",
+  "name": "kominfo-guna-1",
+  "url": "https://sdm-kominfo.cloud.javan.co.id",
+  "tests": [{
+    "id": "336f5540-c07c-4227-b29f-4ec21370e70b",
+    "name": "kominfo-guna-1",
+    "commands": [{
+      "id": "af3496a7-bdc5-4759-b8b6-ee64875c5b8e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31a6a637-d11f-42ad-b818-7487bf6ffe38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69e340c2-941a-4efb-bc31-3c6951b935c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) > .button",
+      "targets": [
+        ["css=.item:nth-child(1) > .button", "css:finder"],
+        ["xpath=//body[@id='body']/section/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0fd6cd-bf08-4157-b4f1-7da285d433ea",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2050b1d-7e87-4066-b155-e688931a9ec3",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin@laravolt.dev"
+    }, {
+      "id": "790168ca-684f-4d84-84fe-9508e591ab1b",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.field:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6936e8-9999-40a2-9973-557e88b424f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.field:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "secret"
+    }, {
+      "id": "471d6afe-804b-4dea-805a-b115dc917b0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//body[@id='body']/div/div/div/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edc94cbf-f38a-438b-977a-c064cda47023",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "nama seleksi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6034571-c04b-4c2e-88f4-4ce964818b29",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22f101bf-3598-4999-b5ca-64e3ee1ee3a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roles",
+      "targets": [
+        ["linkText=Roles", "linkText"],
+        ["css=.ui:nth-child(6) > .title:nth-child(5)", "css:finder"],
+        ["xpath=//nav[@id='sidebar']/div[3]/div/div/div[3]/div/div/div[2]/div[6]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sdm-kominfo.cloud.javan.co.id/epicentrum/roles')]", "xpath:href"],
+        ["xpath=//div[6]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Roles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2dd9e5f-fd90-4db2-82a2-e07ea84660cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-l-0",
+      "targets": [
+        ["css=.m-l-0", "css:finder"],
+        ["xpath=//div[@id='userbar']/div[3]/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94a107ce-b333-42fa-a0f4-efc81e8f9b1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='userbar']/div[3]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sdm-kominfo.cloud.javan.co.id/auth/logout')]", "xpath:href"],
+        ["xpath=//div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb06928-360c-49b6-8fd3-356b2cd59158",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ff018e05-ac14-4c40-a8f4-c5cee123d0cc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["336f5540-c07c-4227-b29f-4ec21370e70b"]
+  }],
+  "urls": ["https://sdm-kominfo.cloud.javan.co.id/"],
+  "plugins": []
+}

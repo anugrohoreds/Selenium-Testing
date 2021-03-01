@@ -1,0 +1,194 @@
+{
+  "id": "d0864d5e-7997-4524-b88e-a8b41f1a0e07",
+  "version": "2.0",
+  "name": "kpk-sppt-dumas-32",
+  "url": "https://sppt.cloud.javan.co.id",
+  "tests": [{
+    "id": "564bbda8-cd67-49d6-b169-3519f2e19c0d",
+    "name": "kpk-sppt-dumas-32",
+    "commands": [{
+      "id": "59df12e9-2372-4615-bdc4-98afca2f184b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "723cc842-1911-42c1-8ac9-7a0ac0af8ad6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "554x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "307ba585-e5f5-4ed2-94d4-657fcdb12604",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > .input-icon:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e179ef-54e8-42fc-b134-fbdec929b610",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(3) > .input-icon:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aidil.ikbar"
+    }, {
+      "id": "81587b13-b366-4ea3-bc77-6834ebeb4232",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "asdf1234"
+    }, {
+      "id": "d86eac13-9bea-4050-b25b-429b3adc9a57",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4858273d-d225-4261-a1df-25176163bb10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Top Satgas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33ac51e-fb01-4b59-9ebe-de482041cc10",
+      "comment": "",
+      "command": "click",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de50191-3675-45c3-9265-d8b77a5fbd2a",
+      "comment": "",
+      "command": "type",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kpm143"
+    }, {
+      "id": "855b18a6-6aeb-4c34-88e1-e7747613c86d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=module_code",
+      "targets": [
+        ["name=module_code", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='module_code']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f37b9fdf-10cb-4c0f-bc24-304e2cda366a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#penerimaan_informasi .odd:nth-child(5) > .details-control",
+      "targets": [
+        ["css=#penerimaan_informasi .odd:nth-child(5) > .details-control", "css:finder"],
+        ["xpath=//table[@id='penerimaan_informasi']/tbody/tr[5]/td", "xpath:idRelative"],
+        ["xpath=//tr[5]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf57aa6-2aba-4385-b491-2395d56fa251",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-minus",
+      "targets": [
+        ["css=.glyphicon-minus", "css:finder"],
+        ["xpath=//table[@id='penerimaan_informasi']/tbody/tr[5]/td/i", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6e03221-a35c-4897-a261-c332f6a7c3cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav > li:nth-child(2) > a",
+      "targets": [
+        ["css=.nav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Penelaahan')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#tab_penelaah')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e63068-f045-4d8b-96e8-fe84f86416d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav > li:nth-child(3) > a",
+      "targets": [
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Klarifikasi')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#tab_klarifikasi')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1875b34-6b17-4118-b7b1-dfcb0ffb2724",
+      "comment": "",
+      "command": "click",
+      "target": "css=#klarifikasi .odd:nth-child(1) > .sorting_1",
+      "targets": [
+        ["css=#klarifikasi .odd:nth-child(1) > .sorting_1", "css:finder"],
+        ["xpath=//table[@id='klarifikasi']/tbody/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/table/tbody/tr/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e1cdc83-2200-4a23-80e1-9c37ed4f5636",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a0555e7-62a5-4562-8bfd-2a71407cef57",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["564bbda8-cd67-49d6-b169-3519f2e19c0d"]
+  }],
+  "urls": ["https://sppt.cloud.javan.co.id/"],
+  "plugins": []
+}
